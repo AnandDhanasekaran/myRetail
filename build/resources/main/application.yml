@@ -1,0 +1,23 @@
+#MongoDB
+server:
+  error:
+    include-message: always
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      host: localhost
+      port: 27017
+      database: myRetail
+      auto-index-creation: true
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+      product-service:
+        logger-level: full
+product:
+  host: https://redsky-uat.perf.target.com
+  key: 3yUxt7WltYG7MFKPp7uyELi1K40ad2ys

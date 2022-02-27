@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.target.myRetail.command.ValidateClientRequestCommandSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:40:44" hostname="MACC02WP14NHTD7" time="0.01">
+  <properties/>
+  <testcase name="Execute[0]" classname="com.target.myRetail.command.ValidateClientRequestCommandSpec" time="0.005"/>
+  <testcase name="Execute[1]" classname="com.target.myRetail.command.ValidateClientRequestCommandSpec" time="0.002"/>
+  <testcase name="PostProcess" classname="com.target.myRetail.command.ValidateClientRequestCommandSpec" time="0.0"/>
+  <testcase name="HandleException" classname="com.target.myRetail.command.ValidateClientRequestCommandSpec" time="0.0"/>
+  <system-out><![CDATA[11:40:44.904 [Test worker] INFO com.target.myRetail.command.ValidateClientRequestCommand - step=VALIDATE_REQUEST, status=SUCCESS
+11:40:44.905 [Test worker] ERROR com.target.myRetail.command.ValidateClientRequestCommand - step=VALIDATE_REQUEST, status=FAIL
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

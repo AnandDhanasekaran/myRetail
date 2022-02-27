@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.target.myRetail.command.UpdatePriceDetailsCommandSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:40:44" hostname="MACC02WP14NHTD7" time="0.046">
+  <properties/>
+  <testcase name="Execute" classname="com.target.myRetail.command.UpdatePriceDetailsCommandSpec" time="0.043"/>
+  <testcase name="PostProcess" classname="com.target.myRetail.command.UpdatePriceDetailsCommandSpec" time="0.002"/>
+  <testcase name="HandleException" classname="com.target.myRetail.command.UpdatePriceDetailsCommandSpec" time="0.001"/>
+  <system-out><![CDATA[11:40:44.838 [Test worker] INFO com.target.myRetail.command.UpdatePriceDetailsCommand - step=UPDATE_PRICE_DETAILS, status=SUCCESS
+11:40:44.839 [Test worker] ERROR com.target.myRetail.command.UpdatePriceDetailsCommand - step=UPDATE_PRICE_DETAILS, status=FAIL
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

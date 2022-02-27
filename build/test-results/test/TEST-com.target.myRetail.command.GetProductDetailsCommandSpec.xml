@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.target.myRetail.command.GetProductDetailsCommandSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:40:44" hostname="MACC02WP14NHTD7" time="0.022">
+  <properties/>
+  <testcase name="Execute" classname="com.target.myRetail.command.GetProductDetailsCommandSpec" time="0.018"/>
+  <testcase name="PostProcess" classname="com.target.myRetail.command.GetProductDetailsCommandSpec" time="0.002"/>
+  <testcase name="HandleException" classname="com.target.myRetail.command.GetProductDetailsCommandSpec" time="0.002"/>
+  <system-out><![CDATA[11:40:44.591 [Test worker] INFO com.target.myRetail.command.GetProductDetailsCommand - step=GET_PRODUCT_DETAILS, status=SUCCESS
+11:40:44.593 [Test worker] ERROR com.target.myRetail.command.GetProductDetailsCommand - step=GET_PRODUCT_DETAILS, status=FAIL
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

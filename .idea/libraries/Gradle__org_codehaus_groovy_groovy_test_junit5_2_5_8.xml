@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.groovy:groovy-test-junit5:2.5.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/2.5.8/29dae52335943fee1c0bea0c11563fb0155a53b4/groovy-test-junit5-2.5.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/2.5.8/37db99fc6551e83c0bd9a6705ea44a95c61776d3/groovy-test-junit5-2.5.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="myRetail.integrationTest.main" target="11" />
+      <module name="myRetail.integrationTest.test" target="11" />
+      <module name="myRetail.main" target="1.8" />
+      <module name="myRetail.test" target="1.8" />
+      <module name="org.myRetail.myRetail.main" target="1.8" />
+      <module name="org.myRetail.myRetail.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

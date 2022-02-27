@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.groovy:groovy-swing:2.5.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.5.8/783f08039672d0a2dda037beb1f051b084c8862c/groovy-swing-2.5.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.5.8/6017e6576f17575aaed9632f67c8b59fcb29a269/groovy-swing-2.5.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

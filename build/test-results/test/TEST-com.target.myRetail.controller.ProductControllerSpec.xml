@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.target.myRetail.controller.ProductControllerSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:40:43" hostname="MACC02WP14NHTD7" time="0.565">
+  <properties/>
+  <testcase name="[TestCase] - test getProductDetail - with positive value" classname="com.target.myRetail.controller.ProductControllerSpec" time="0.552"/>
+  <testcase name="[TestCase] - test getProductDetail - with null value" classname="com.target.myRetail.controller.ProductControllerSpec" time="0.001"/>
+  <testcase name="[TestCase] - test getProductDetail - exception" classname="com.target.myRetail.controller.ProductControllerSpec" time="0.003"/>
+  <testcase name="[TestCase] - test savePrice - with positive value" classname="com.target.myRetail.controller.ProductControllerSpec" time="0.002"/>
+  <testcase name="[TestCase] - test updatePrice - exception" classname="com.target.myRetail.controller.ProductControllerSpec" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
