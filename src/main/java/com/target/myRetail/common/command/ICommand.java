@@ -4,15 +4,15 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.target.myRetail.common.CommandContext;
 
 public interface ICommand<T extends CommandContext> {
-  Boolean evaluate(T var1);
+  Boolean evaluate(T obj);
 
-  Boolean preProcess(Boolean var1, T var2);
+  Boolean preProcess(Boolean result, T obj);
 
-  Boolean execute(Boolean var1, T var2) throws JsonProcessingException;
+  Boolean execute(Boolean result, T obj) throws JsonProcessingException;
 
-  Boolean postProcess(Boolean var1, T var2);
+  Boolean postProcess(Boolean result, T obj);
 
-  Boolean handleException(Exception var1, Boolean var2, T var3) throws Exception;
+  Boolean handleException(Exception e, Boolean result, T obj) throws Exception;
 
-  Boolean handleIgnoreException(Exception var1, Boolean var2, T var3);
+  Boolean handleIgnoreException(Exception e, Boolean result, T obj);
 }

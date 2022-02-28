@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.target.myRetail.command.BuildProductResponseCommandSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:40:44" hostname="MACC02WP14NHTD7" time="0.168">
+<testsuite name="com.target.myRetail.command.BuildProductResponseCommandSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-27T19:02:14" hostname="MACC02WP14NHTD7" time="0.2">
   <properties/>
-  <testcase name="Execute" classname="com.target.myRetail.command.BuildProductResponseCommandSpec" time="0.165"/>
+  <testcase name="Execute" classname="com.target.myRetail.command.BuildProductResponseCommandSpec" time="0.197"/>
   <testcase name="PostProcess" classname="com.target.myRetail.command.BuildProductResponseCommandSpec" time="0.001"/>
   <testcase name="HandleException" classname="com.target.myRetail.command.BuildProductResponseCommandSpec" time="0.002"/>
-  <system-out><![CDATA[11:40:44.775 [Test worker] INFO com.target.myRetail.command.BuildProductResponseCommand - step=BUILD_PRODUCT_RESPONSE, status=SUCCESS
-11:40:44.776 [Test worker] ERROR com.target.myRetail.command.BuildProductResponseCommand - step=BUILD_PRODUCT_RESPONSE, status=FAIL
+  <system-out><![CDATA[13:02:14.209 [Test worker] INFO com.target.myRetail.command.BuildProductResponseCommand - step=BUILD_PRODUCT_RESPONSE, status=SUCCESS
+13:02:14.211 [Test worker] ERROR com.target.myRetail.command.BuildProductResponseCommand - step=BUILD_PRODUCT_RESPONSE, status=FAIL
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

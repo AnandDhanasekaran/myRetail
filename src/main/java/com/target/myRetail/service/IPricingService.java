@@ -4,9 +4,9 @@ import com.target.myRetail.domain.Price;
 import java.util.List;
 
 public interface IPricingService {
-  Price findById(Integer var1);
+  Price findById(Integer id);
 
-  Price save(Price var1);
+  Price save(Price price);
 
   List<Price> findAll();
 }

@@ -11,29 +11,29 @@ import java.util.List;
 
 @Component
 public class CommandChain {
-  public static final Boolean STOP = true;
-  public static final Boolean VALID = true;
+//  public static final Boolean STOP = true;
+//  public static final Boolean VALID = true;
   public static final Boolean CONTINUE = false;
   @Autowired
   private ApplicationContext applicationContext;
 
   public void execute(List<Class> commandClasses, CommandContext commandContext) throws Exception {
     List<ACommand> commands = new ArrayList();
-    Iterator var4 = commandClasses.iterator();
+    Iterator classIterator = commandClasses.iterator();
 
     ACommand command;
-    while(var4.hasNext()) {
-      Class classes = (Class)var4.next();
+    while(classIterator.hasNext()) {
+      Class classes = (Class)classIterator.next();
       command = this.getCommand(classes);
       if (command != null) {
         commands.add(command);
       }
     }
 
-    Iterator var8 = commands.iterator();
+    Iterator commandIterator = commands.iterator();
 
-    while(var8.hasNext()) {
-      command = (ACommand)var8.next();
+    while(commandIterator.hasNext()) {
+      command = (ACommand)commandIterator.next();
       boolean stop = this.handleCommand(command, commandContext);
       if (stop) {
         break;
@@ -46,7 +46,7 @@ public class CommandChain {
     ACommand command;
     try {
       command = (ACommand)this.applicationContext.getBean(it);
-    } catch (Exception var4) {
+    } catch (Exception e) {
       command = (ACommand)this.applicationContext.getBean(it.getSimpleName());
     }
 
@@ -75,9 +75,9 @@ public class CommandChain {
       if (!stop) {
         stop = command.postProcess(conditionResult, commandContext);
       }
-    } catch (Exception var6) {
+    } catch (Exception e) {
       if (!stop) {
-        stop = command.handleException(var6, conditionResult, commandContext);
+        stop = command.handleException(e, conditionResult, commandContext);
       }
     }
 

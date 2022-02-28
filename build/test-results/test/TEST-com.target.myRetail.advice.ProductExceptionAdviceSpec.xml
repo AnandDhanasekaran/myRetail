@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.target.myRetail.advice.ProductExceptionAdviceSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:40:43" hostname="MACC02WP14NHTD7" time="0.107">
+<testsuite name="com.target.myRetail.advice.ProductExceptionAdviceSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-27T19:02:12" hostname="MACC02WP14NHTD7" time="0.111">
   <properties/>
-  <testcase name="HandleItemNotFoundException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.092"/>
-  <testcase name="HandleProductNotFoundException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.005"/>
-  <testcase name="HandleInvalidProductIdFoundException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.001"/>
-  <testcase name="HandleTooManyRequestException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.006"/>
+  <testcase name="HandleItemNotFoundException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.097"/>
+  <testcase name="HandleProductNotFoundException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.004"/>
+  <testcase name="HandleInvalidProductIdFoundException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.0"/>
+  <testcase name="HandleTooManyRequestException" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.005"/>
   <testcase name="BuildError" classname="com.target.myRetail.advice.ProductExceptionAdviceSpec" time="0.002"/>
-  <system-out><![CDATA[11:40:43.212 [Test worker] DEBUG com.athaydes.spockframework.report.SpockReportExtension - Configuring com.athaydes.spockframework.report.SpockReportExtension
-11:40:43.303 [Test worker] DEBUG com.athaydes.spockframework.report.internal.ConfigLoader - SpockReports config loaded: [com.athaydes.spockframework.report.internal.HtmlReportCreator.printThrowableStackTrace:false, com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile:/templateReportCreator/spec-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension:md, com.athaydes.spockframework.report.hideEmptyBlocks:false, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile:/templateReportCreator/summary-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileName:summary.md, com.athaydes.spockframework.report.outputDir:build/spock-reports, com.athaydes.spockframework.report.internal.HtmlReportCreator.inlineCss:true, com.athaydes.spockframework.report.internal.HtmlReportCreator.featureReportCss:spock-feature-report.css, com.athaydes.spockframework.report.internal.HtmlReportCreator.summaryReportCss:spock-summary-report.css, com.athaydes.spockframework.report.internal.HtmlReportCreator.excludeToc:false, com.athaydes.spockframework.report.IReportCreator:com.athaydes.spockframework.report.internal.HtmlReportCreator]
-11:40:43.390 [Test worker] DEBUG com.athaydes.spockframework.report.SpockReportExtension - Loading settings for reportCreator of type com.athaydes.spockframework.report.internal.HtmlReportCreator
-11:40:43.732 [Test worker] DEBUG com.athaydes.spockframework.report.internal.CssResource - Getting classpath resource text: spock-feature-report.css
-11:40:43.742 [Test worker] DEBUG com.athaydes.spockframework.report.internal.CssResource - Found css resource (1966 characters long)
-11:40:43.744 [Test worker] DEBUG com.athaydes.spockframework.report.internal.CssResource - Inlining css in HTML report
+  <system-out><![CDATA[13:02:13.076 [Test worker] DEBUG com.athaydes.spockframework.report.internal.CssResource - Getting classpath resource text: spock-feature-report.css
+13:02:13.085 [Test worker] DEBUG com.athaydes.spockframework.report.internal.CssResource - Found css resource (1966 characters long)
+13:02:13.085 [Test worker] DEBUG com.athaydes.spockframework.report.internal.CssResource - Inlining css in HTML report
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
